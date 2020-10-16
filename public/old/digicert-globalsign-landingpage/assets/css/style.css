@@ -1,0 +1,381 @@
+/* ==========================================================================
+   Basic CSS
+   ========================================================================== */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #727272;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #272727;
+}
+
+.section-padding {
+    padding: 80px 0px;
+}
+
+/*===================== Header ======================*/
+.top-contact-info ul li a {
+    font-size: 13px;
+    color: #727272;
+}
+
+.top-contact-info ul li a:hover {
+    color: #27a22d;
+}
+
+.top-social-media ul li {
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    background: #27a22d;
+    transition: .3s;
+}
+
+.top-social-media ul li:hover {
+    background: #999999;
+}
+
+.top-social-media ul li a {
+    color: #fff;
+}
+
+.top-social-media ul li.list-inline-item {
+    margin-right: 2px;
+}
+
+.top-social-media ul li.list-inline-item:last-child {
+    margin-right: 0px;
+}
+
+/*===================== Footer ======================*/
+.sub-footer {
+    background: url(../img/footer-bg.jpg);
+    background-repeat: repeat;
+    background-position: left top;
+    padding: 70px 0px 40px 0px;
+    border-top: 5px solid #000000;
+}
+
+.sub-footer h4 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.sub-footer ul li {
+    margin-bottom: 8px;
+}
+
+.sub-footer ul li a {
+    color: #727272;
+}
+
+.sub-footer ul li a:hover {
+    color: #ffffff;
+}
+
+.copyright {
+    font-size: 13px;
+}
+
+footer {
+    padding: 20px 0px;
+}
+
+.footer-social-media ul li {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    background: #999999;
+    transition: .3s;
+}
+
+.footer-social-media ul li:hover {
+    background: #27a22d;
+}
+
+.footer-social-media ul li a {
+    color: #fff;
+}
+
+.footer-social-media ul li.list-inline-item {
+    margin-right: 2px;
+}
+
+.footer-social-media ul li.list-inline-item:last-child {
+    margin-right: 0px;
+}
+
+/*===================== Hero Area ======================*/
+.hero-area {
+    padding: 70px 0px;
+    background: url(../img/bg.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-area h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.form-area {
+    background: #E4E3DF;
+    padding: 30px;
+    border-radius: 4px;
+    margin-right: 48px;
+}
+
+.form-area form .form-control {
+    height: calc(1.8em + .85rem + 4px);
+    padding: .6rem .75rem;
+    font-size: .95rem;
+    color: #000000;
+    border-radius: .15rem;
+}
+
+.form-area form .form-control:focus {
+    border-color: #27A22D;
+    box-shadow: 0 0 0 0.2rem rgba(39, 162, 45, .25);
+}
+
+.form-area form .btn {
+    padding: 0.55rem .75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: .15rem;
+}
+
+/*====================================================*/
+.degital-certificates-left,
+.degital-certificates-right {
+    padding: 70px 0px;
+}
+
+.single-degital-certificate h4 {
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.why-choose {
+    background: #fbfbfb;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+
+.single-why-choose {
+    text-align: center;
+}
+
+.single-why-choose .swcib {
+    margin: 0 auto;
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #eaeaea;
+    margin-bottom: 25px;
+}
+
+.single-why-choose {
+    color: #272727;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 30px 55px;
+    float: left;
+}
+
+.single-why-choose {
+    color: #272727;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+    padding: 30px 25px;
+    float: left;
+    width: 20%;
+}
+
+.capabilities {
+    padding: 70px 0px;
+    background: url(../img/bg2.jpg);
+    background-repeat: repeat-y;
+    background-position: top center;
+}
+
+.single-capabilitie img {
+    border: 7px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.single-capabilitie h5 {
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.features-left ul li {
+    margin-bottom: 10px;
+}
+
+/*=================== Client Area ===================*/
+.client {
+    background: #fbfbfb;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    font-size: 55px;
+}
+
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus {
+    outline: 0;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 10%;
+    right: -25px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 10%;
+    left: -25px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #fff;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .section-padding {
+        padding: 45px 0px;
+    }
+
+    .why-choose {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .single-why-choose {
+        line-height: 26px;
+        width: 100%;
+    }
+
+    .capabilities {
+        padding: 45px 0px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 20%;
+        left: -7px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        top: 20%;
+        right: -7px;
+    }
+
+    .degital-certificates-left {
+        padding: 25px 0px;
+    }
+
+    .degital-certificates-right {
+        padding: 50px 0px;
+    }
+
+    .degital-certificates ul li img {
+        width: 140px;
+    }
+
+    .degital-certificates ul {
+        margin-bottom: 35px;
+    }
+
+    .hero-area {
+        padding: 55px 0px;
+    }
+
+    .form-area {
+        padding: 22px 16px;
+        margin-right: 0;
+    }
+
+    .form-area h2 {
+        font-size: 24px;
+    }
+
+    .form-area form .form-control {
+        height: calc(1.6em + .85rem + 4px);
+    }
+
+    .form-area form .btn {
+        font-size: 1rem;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .top-social-media,
+    .top-contact-info {
+        text-align: center;
+    }
+
+    .top-contact-info {
+        margin-bottom: 8px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .form-area h2 {
+        font-size: 34px;
+    }
+}

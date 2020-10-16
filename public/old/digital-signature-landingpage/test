@@ -1,0 +1,366 @@
+4a5,16
+>     <meta charset="utf-8">
+>     <meta http-equiv="x-ua-compatible" content="ie=edge">
+>     <title>Digital certificate providers in Dubai, Abudhabi, UAE</title>
+>     <meta name="description" content="We provide highly encrypted digital certificates in Dubai, Abu Dhabi, UAE. Digicert dealer in Dubai.">
+>     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+>     <link rel="shortcut icon" type="image/png" href="assets/img/fav.png">
+>     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
+>     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+>     <link rel="stylesheet" href="assets/css/wap.css">
+>     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+>     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+>     <link rel="stylesheet" href="assets/css/style.css">
+15,30d26
+< <!-- Event snippet for Docusign conversion page -->
+< <script>
+<   gtag('event', 'conversion', {'send_to': 'AW-733335249/QpTQCLzHg7EBENGd190C'});
+< </script>
+< 
+<     <meta charset="utf-8">
+<     <meta http-equiv="x-ua-compatible" content="ie=edge">
+<     <title> Certified DocuSign Partner Dubai, Abudhabi, Sharjah UAE</title>
+<     <meta name="description" content="We provide  digital certificates in Dubai, Abu Dhabi, UAE. Digicert dealer in Dubai.">
+<     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<     <link rel="shortcut icon" type="image/png" href="assets/img/fav.png">
+<     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
+<     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+<     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<     <link rel="stylesheet" href="assets/css/style.css">
+50c46
+< 			    <li class="list-inline-item"><a href="tel:043263939" onclick="notifyep('043263939')"><i class="fa fa-phone"></i> 04 326 3939</a></li>
+---
+>                             <li class="list-inline-item"><a href="tel:043263939" onclick="notifyep('043263939')"><i class="fa fa-phone"></i> 04 326 3939</a></li>
+75c71
+<                         <form id="epadform"  method="post">
+---
+>                         <form action="epsend.php" method="post">
+77c73
+<                                 <input type="text" name="name4" class="form-control" placeholder="Your Name" required>
+---
+>                                 <input type="text" name="name4" class="form-control" placeholder="Name" required>
+84c80
+< 			    <span class="help-block">&nbsp; Company email address required</span>
+---
+> 				<span class="help-block">&nbsp; Company email address required</span>
+86d81
+< 
+90d84
+< 
+92c86
+<                                 <input type="text" name="comment4" class="form-control" placeholder="Message" required>
+---
+> 				<input type="text" name="comment4" class="form-control" placeholder="Message" required>
+96,110c90,103
+<                                 <label class="label" data-toggle="tooltip" data-placement="top" title="In order to help us serve you better, please let us know if your organisation is using any of the below solutions.">Existing software solutions in use:</label>
+< 				<br>
+<                                  <b> <input type="checkbox" id="Office365" name="Office365" value="Office365">
+<                                   <label for="Office365">Office365&nbsp;</label>
+<                                   <input type="checkbox" id="SharePoint" name="SharePoint" value="SharePoint">
+<                                   <label for="SharePoint">SharePoint &nbsp;</label>
+<                                   <input type="checkbox" id="SalesForce" name="SalesForce" value="SalesForce">
+<                                   <label for="SalesForce">SalesForce</label><br>
+<                                   <input type="checkbox" id="SAP" name="SAP" value="SAP">
+<                                   <label for="SAP">SAP &nbsp;</label>
+<                                   <input type="checkbox" id="Oracle" name="Oracle" value="Oracle">
+<                                   <label for="Oracle">Oracle &nbsp;</label>
+<                                   <input type="checkbox" id="Others" name="Others" value="Others">
+<                                   <label for="Others">Others</label>
+<                                 </b>
+---
+> 				<label class="label">In order to help us serve you better, please let us know if your organisation is using any of the below solutions:</label>
+> 				 <b> <input type="checkbox" id="Office365" name="Office365" value="Office365"> 
+> 				  <label for="Office365">Office365&nbsp;</label>
+> 				  <input type="checkbox" id="SharePoint" name="SharePoint" value="SharePoint">
+> 				  <label for="SharePoint">SharePoint &nbsp;</label>
+> 				  <input type="checkbox" id="SalesForce" name="SalesForce" value="SalesForce">
+> 				  <label for="SalesForce">SalesForce</label><br>
+> 				  <input type="checkbox" id="SAP" name="SAP" value="SAP"> 
+> 				  <label for="SAP">SAP &nbsp;</label>
+> 				  <input type="checkbox" id="Oracle" name="Oracle" value="Oracle">
+> 				  <label for="Oracle">Oracle &nbsp;</label>
+> 				  <input type="checkbox" id="Others" name="Others" value="Others">
+> 				  <label for="Others">Others</label><br><br>
+> 				</b>
+118c111
+<   </div> 
+---
+>   </div>
+121,122c114,115
+< 			    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+<                             <button type="submit" id="sbtn" class="btn btn-success btn-block">GET STARTED</button>
+---
+> 			 <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+>                             <button type="submit" class="btn btn-success btn-block">GET STARTED</button>
+129c122
+<     <section class="docusign">
+---
+>     <section class="three-services section-padding">
+132,136c125,143
+<                 <div class="col-lg-12">
+<                     <div class="docusign-top section-padding text-center">
+<                         <h1>DocuSign</h1>
+<                         <h3>Don't settle for less. Choose the #1 eSignature brand, DocuSign.</h3>
+<                         <p class="mb-0">Go digital with DocuSign. We’ll help you all the way and scale with you, even to a global level. It’s easy to get started and easy to grow when you choose the eSignature company that Aragon Research* considers the industry leader</p>
+---
+>                 <div class="col-lg-4">
+>                     <div class="single-3service text-center mb-5 mb-md-0">
+>                         <img src="assets/img/docusign.jpg" alt="" class="img-fluid">
+>                         <p>Don’t settle for less. Choose the #1 eSignature brand, DocuSign.</p>
+>                         <a href="https://www.epillars.ae/docusign/" class="btn btn-info rounded-pill text-uppercase font-weight-bold" target="_blank">&ensp; LEARN MORE &ensp;</a>
+>                     </div>
+>                 </div>
+>                 <div class="col-lg-4">
+>                     <div class="single-3service text-center mb-5 mb-md-0">
+>                         <img src="assets/img/globalsign.jpg" alt="" class="img-fluid">
+>                         <p>Legally Admissible, Compliant <br>Digital Signatures</p>
+>                         <a href="https://www.epillars.ae/global-sign/" class="btn btn-info rounded-pill text-uppercase font-weight-bold" target="_blank">&ensp; LEARN MORE &ensp;</a>
+>                     </div>
+>                 </div>
+>                 <div class="col-lg-4">
+>                     <div class="single-3service text-center">
+>                         <img src="assets/img/zoho.jpg" alt="" class="img-fluid">
+>                         <p>Securely sign, send, and manage your documents from anywhere with Zoho Sign.</p>
+>                         <a href="https://www.epillars.ae/zoho-sign/" class="btn btn-info rounded-pill text-uppercase font-weight-bold" target="_blank">&ensp; LEARN MORE &ensp;</a>
+140d146
+<             <hr>
+143c149
+<     <section class="move-business text-center">
+---
+>     <section class="main-content section-padding">
+147,150c153,160
+<                     <div class="move-business-top">
+<                         <img src="assets/img/docusign%20icon5.png" alt="" class="img-fluid">
+<                         <br><br><br><br>
+<                         <h2>MOVE BUSINESS FORWARD SECURELY AND RELIABLY</h2>
+---
+>                     <div class="signature-solutions">
+>                         <h3>Digital Signature Solutions</h3>
+>                         <p>Digital signatures are like electronic “fingerprints.” In the form of a coded message, the digital signature securely associates a signer with a document in a recorded transaction. Digital signatures use a standard, accepted format, called Public Key Infrastructure (PKI), to provide the highest levels of security and universal acceptance. They are a specific signature technology implementation of electronic signature (eSignature).</p>
+>                         <p>The term digital signature is used to refer to a category of e-signatures which are created using Public Key Cryptography (PKC). However, practically the only way to implement these is to use digital signature based on PKI. Digital Signature is a process that guarantees that the contents of a message have not been altered in transit.</p>
+>                         <p>When you, the server, digitally sign a document, you add a one-way hash (encryption) of the message content using your public and private key pair.</p>
+>                         <p>Your client can still read it, but the process creates a “signature” that only the server’s public key can decrypt. The client, using the server’s public key, can then validate the sender as well as the integrity of message contents.</p>
+>                         <p>Whether it’s an email, an online order or a watermarked photograph on eBay, if the transmission arrives but the digital signature does not match the public key in the digital certificate, then the client knows that the message has been altered.</p>
+>                         <br><br>
+155,190d164
+<                 <div class="col-lg-3">
+<                     <div class="single-mbusiness">
+<                         <img src="assets/img/mbi1.png" alt="" class="img-fluid">
+<                         <h4>Get it done, faster than ever</h4>
+<                         <p>Easy to use, quick to learn and a snap to implement, approvals and agreements are simple and convenient for everyone involved.</p>
+<                     </div>
+<                 </div>
+<                 <div class="col-lg-3">
+<                     <div class="single-mbusiness">
+<                         <img src="assets/img/mbi2.png" alt="" class="img-fluid">
+<                         <h4>Anywhere, anytime, any device</h4>
+<                         <p>Access, sign and send important documents from your desk, on the road or everywhere in between.</p>
+<                     </div>
+<                 </div>
+<                 <div class="col-lg-3">
+<                     <div class="single-mbusiness">
+<                         <img src="assets/img/mbi3.png" alt="" class="img-fluid">
+<                         <h4>Works with your favorite apps</h4>
+<                         <p>DocuSign works with the services, applications, and devices you already use: Microsoft, Salesforce, Google, Apple and many more.</p>
+<                     </div>
+<                 </div>
+<                 <div class="col-lg-3">
+<                     <div class="single-mbusiness">
+<                         <img src="assets/img/mbi4.png" alt="" class="img-fluid">
+<                         <h4>Over 85 million users worldwide</h4>
+<                         <p>DocuSign is the most reliable and globally trusted service for electronic signatures and approvals.</p>
+<                     </div>
+<                 </div>
+<             </div>
+<             <br><br class="d-none d-lg-block">
+<             <hr>
+<         </div>
+<     </section>
+<     <section class="discover-docusign section-padding text-center">
+<         <div class="container">
+<             <div class="row">
+192c166
+<                     <h2>Discover the DocuSign that’s right for you</h2>
+---
+>                     <h3>Three core security services provided by digital signatures</h3>
+197,200c171,174
+<                     <div class="single-discover mb-5 mb-md-0">
+<                         <img src="assets/img/sdd1.png" alt="" class="img-fluid">
+<                         <h4>For individuals</h4>
+<                         <p class="mb-0">From school permission slips to business contracts, take charge of your digital life. Electronically sign and manage all your documents from one place so you can focus on what truly matters.</p>
+---
+>                     <div class="single-security-service text-center">
+>                         <div class="security-icon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></div>
+>                         <h5>Signer authentication</h5>
+>                         <p>Proof of who actually signed the document i.e. digital signatures linking the user’s signature to an actual identifiable entity.</p>
+204,207c178,181
+<                     <div class="single-discover mb-5 mb-md-0">
+<                         <img src="assets/img/sdd2.png" alt="" class="img-fluid">
+<                         <h4>For small & medium businesses</h4>
+<                         <p class="mb-0">Delight customers with an easier way to work together. Save valuable time and keep your business moving from anywhere.</p>
+---
+>                     <div class="single-security-service text-center">
+>                         <div class="security-icon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
+>                         <h5>Data integrity</h5>
+>                         <p>Proof that the document has not been changed since signing. The digital signature depends on every binary bit of the document and therefore can’t be re-attached to any other document.</p>
+211,214c185,188
+<                     <div class="single-discover">
+<                         <img src="assets/img/sdd3.png" alt="" class="img-fluid">
+<                         <h4>For enterprises</h4>
+<                         <p class="mb-0">Make your business processes secure and compliant with our global and amazingly flexible service. Your employees and customers will be up and running in minutes.</p>
+---
+>                     <div class="single-security-service text-center">
+>                         <div class="security-icon"><i class="fa fa-files-o" aria-hidden="true"></i></div>
+>                         <h5>Non-repudiation</h5>
+>                         <p>The signer should not be able to falsely deny having signed. That is, it should be possible to prove in a court that the signer in fact created the signature. Conversely it should not be possible to falsely claim that someone signed a document when they did not.</p>
+217a192,208
+>             <br>
+>             <div class="row">
+>                 <div class="col-lg-6">
+>                     <img src="assets/img/ds.png" alt="" class="img-fluid">
+>                     <br class="d-lg-none"><br class="d-lg-none">
+>                 </div>
+>                 <div class="col-lg-6">
+>                     <p>The most common way of creating a digital signature is to use Public Key Cryptography (PKC). The systems used to deliver PKC are called Public Key Infrastructures (PKI). At a basic level digital signature solutions require each user to have a public and private key pair which are mathematically linked. The private key remains under the owner’s sole control and is used to sign. The signing process creates a crypto code, which is embedded into the document.</p>
+>                 </div>
+>             </div>
+>             <div class="row">
+>                 <div class="col-lg-12">
+>                     <p>A PKC based digital signature is based on the following security principles:</p>
+>                     <p>There is no way for anyone to work out someone’s private key from their public key. This is because PKC is based on hard mathematical one-way problems, e.g. like factoring a large number which is the product of two primes.</p>
+>                     <p class="mb-0">The private key is under the sole control of the owner. This can be held locally by the user (e.g. on a secure smartcard/USB token), in this case the signing process is referred to as “local signing”. Or the private key can be held centrally in a Hardware Security Module (HSM) – a tamper-protected hardware component. In this case the signing process is referred to as “remote signing”. The key is only released to the user after successful authentication using either single or multi-factor authentication.</p>
+>                 </div>
+>             </div>
+220c211
+<     <section class="trust">
+---
+>     <section class="rec-demo">
+222,226c213,217
+<             <hr>
+<             <div class="row">
+<                 <div class="col-lg-12">
+<                     <div class="trusted-text text-center">
+<                         <h1>Trusted and loved by over 85 million people worldwide</h1>
+---
+>             <div class="row d-flex align-items-center">
+>                 <div class="col-lg-9">
+>                     <div class="rec-demo-text">
+>                         <h2>Request for a Demo</h2>
+>                         <p class="mb-0">Try a FREE DEMO today</p>
+228a220,222
+>                 <div class="col-lg-3">
+>                     <a href="https://www.epillars.ae/contact-us/" class="btn btn-lg btn-light rounded-pill font-weight-bold">&ensp;FREE DEMO&ensp;</a>
+>                 </div>
+230d223
+<             <hr>
+368,380d360
+< <script>
+< function notifyep(myno) {
+<       $.ajax({
+<            type: "POST",
+<            url: 'https://www.epillars.com/takenote.php',
+<            data:{action:myno},
+<            success:function(html) {
+<              //alert(html);
+< 		return;
+<            }
+< 
+<       });
+<  }
+382d361
+< </script>
+394a374,403
+>    <script src="https://www.google.com/recaptcha/api.js?render=6LcnjPcUAAAAAPkRO2RlbtW7poW5_QVGdfgQGGqL"></script>
+>     <script>
+>         grecaptcha.ready(function () {
+>             grecaptcha.execute('6LcnjPcUAAAAAPkRO2RlbtW7poW5_QVGdfgQGGqL', { action: 'contact' }).then(function (token) {
+>                 var recaptchaResponse = document.getElementById('recaptchaResponse');
+>                 recaptchaResponse.value = token;
+>             });
+>         });
+>     </script>
+> 
+> 
+>     <!-- Global site tag (gtag.js) - Google Ads: 657684785 -->
+>     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-657684785"></script>
+>     <script>
+>         window.dataLayer = window.dataLayer || [];
+> 
+>         function gtag() {
+>             dataLayer.push(arguments);
+>         }
+>         gtag('js', new Date());
+> 
+>         gtag('config', 'AW-657684785');
+> 
+>     </script>
+>     <!-- Global site tag (gtag.js) - Google Analytics -->
+>     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57642463-4"></script>
+> <div class="fa fa-whatsapp my-float">
+> <a href="http://wa.me/97143263939?text=I have Digital Certificate requirement."  target="_blank" onclick="notifyep('97143263939')"> <img id="myImg" src="../images/whatsapp.png" alt="WhatsApp" align="float:left;width:62px;height:62px;"> </a>
+> </div>
+> 
+395a405
+> 
+423,426c433,436
+< 			$("#sbtn").hide();
+< 			$("#InvMsg").html("<font color='green'>Thank you ! <br> You will receive a response from our team shortly.</font>");
+< 			modal.style.display = "block";
+< 			location.href = 'https://www.epillars.com/docusign-dubai-abudhabi-sharjah/thankyou/';
+---
+>                         $("#sbtn").hide();
+>                         $("#InvMsg").html("<font color='green'>Thank you ! <br> You will receive a response from our team shortly.</font>");
+>                         modal.style.display = "block";
+>                         location.href = 'https://www.epillars.com/digital-signature-landingpage/thankyou/';
+431,432c441,442
+< 		    $("#InvMsg").html("<font color='red'>Could not submit your request.<br> Please check and resubmit.</font>");
+< 		    modal.style.display = "block";
+---
+>                     $("#InvMsg").html("<font color='red'>Could not submit your request.<br> Please check and resubmit.</font>");
+>                     modal.style.display = "block";
+438,461d447
+< </script>
+< 
+< 
+<     <script src="https://www.google.com/recaptcha/api.js?render=6LcnjPcUAAAAAPkRO2RlbtW7poW5_QVGdfgQGGqL"></script>
+<     <script>
+<         grecaptcha.ready(function () {
+<             grecaptcha.execute('6LcnjPcUAAAAAPkRO2RlbtW7poW5_QVGdfgQGGqL', { action: 'contact' }).then(function (token) {
+<                 var recaptchaResponse = document.getElementById('recaptchaResponse');
+<                 recaptchaResponse.value = token;
+<             });
+<         });
+<     </script>
+< 
+<  <!-- Global site tag (gtag.js) - Google Ads: 733335249 -->
+<  <!-- Global site tag (gtag.js) - Google Ads: 733335249 -->
+< <script async src="https://www.googletagmanager.com/gtag/js?id=AW-733335249"></script>
+< <script>
+<   window.dataLayer = window.dataLayer || [];
+<   function gtag(){dataLayer.push(arguments);}
+<   gtag('js', new Date());
+< 
+<   gtag('config', 'AW-733335249');
+< </script>   
+<  <!-- Global site tag (gtag.js) - Google Analytics -->
+462a449,457
+> function notifyep(myno) {
+>       $.ajax({
+>            type: "POST",
+>            url: 'https://www.epillars.com/takenote.php',
+>            data:{action:myno},
+>            success:function(html) {
+>              //alert(html);
+>                 return;
+>            }
+464c459,461
+<     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57642463-1"></script>
+---
+>       });
+>  }
+> </script>
+473c470
+<         gtag('config', 'UA-57642463-1');
+---
+>         gtag('config', 'UA-57642463-4');

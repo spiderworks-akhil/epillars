@@ -1,0 +1,10 @@
+ID,LOC_NO,LOC_NAME,ENABLED,ADDR1,ADDR2,CITY,STATE,ZIP,COUNTRY,CONTACT,PHONE1,PHONE2,FAX,EMAIL,DEPARTMENT,DOMAIN,TIMEZONE,CUSTOM0,CUSTOM1,CUSTOM2,CUSTOM3,CUSTOM4,CUSTOM5,CUSTOM6,CUSTOM7,CUSTOM8,CUSTOM9,OWNER1,OWNER2,OWNER3,OWNER4,OWNER5,EXCUSTOM1,EXCUSTOM2,EXCUSTOM3,EXCUSTOM4,EXCUSTOM5,EXCUSTOM6,EXCUSTOM7,EXCUSTOM8,EXCUSTOM9,EXCUSTOM10,ATTACHMENT_NAME1,ATTACHMENT_TYPE1,ATTACHMENT_URL1,ATTACHMENT_CATEGORY1,ATTACHMENT_LOCALE1,ATTACHMENT_IS_PRIVATE1
+,973,Manama New,TRUE,,,,,,,SALEH.ALNASHWAN@GIB.COM,,,,,,world,"(GMT+03:00) Baghdad, Kuwait, Riyadh",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,96613,Eastern,TRUE,,,,,,,SALEH.ALNASHWAN@GIB.COM,,,,,,world,"(GMT+03:00) Baghdad, Kuwait, Riyadh",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,96611,Central,TRUE,,,,,,,SALEH.ALNASHWAN@GIB.COM,,,,,,world,"(GMT+03:00) Baghdad, Kuwait, Riyadh",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,96612,Western,TRUE,,,,,,,SALEH.ALNASHWAN@GIB.COM,,,,,,world,"(GMT+03:00) Baghdad, Kuwait, Riyadh",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,9712,Abu Dhabi,TRUE,,,,,,,SALEH.ALNASHWAN@GIB.COM,,,,,,world,"(GMT+04:00) Abu Dhabi, Muscat",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,9714,Dubai,TRUE,,,,,,,SALEH.ALNASHWAN@GIB.COM,,,,,,world,"(GMT+04:00) Abu Dhabi, Muscat",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,961,Beirut,TRUE,,,,,,,SALEH.ALNASHWAN@GIB.COM,,,,,,world,"(GMT+03:00) Baghdad, Kuwait, Riyadh",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,1212,New York,TRUE,,,,,,,SALEH.ALNASHWAN@GIB.COM,,,,,,world,(GMT-05:00) Eastern Time (US & Canada),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,4420,London ,TRUE,,,,,,,SALEH.ALNASHWAN@GIB.COM,,,,,,world,"(GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

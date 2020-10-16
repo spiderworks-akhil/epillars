@@ -1,0 +1,385 @@
+/* ==========================================================================
+   Basic CSS
+   ========================================================================== */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #727272;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #272727;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.section-padding {
+    padding: 80px 0px;
+}
+
+/*===================== Header ======================*/
+.top-contact-info ul li a {
+    font-size: 13px;
+    color: #727272;
+}
+
+.top-contact-info ul li a:hover {
+    color: #27a22d;
+}
+
+.top-social-media ul li {
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    background: #27a22d;
+    transition: .3s;
+}
+
+.top-social-media ul li:hover {
+    background: #999999;
+}
+
+.top-social-media ul li a {
+    color: #fff;
+}
+
+.top-social-media ul li.list-inline-item {
+    margin-right: 2px;
+}
+
+.top-social-media ul li.list-inline-item:last-child {
+    margin-right: 0px;
+}
+
+/*===================== Footer ======================*/
+.sub-footer {
+    background: url(../img/footer-bg.jpg);
+    background-repeat: repeat;
+    background-position: left top;
+    padding: 70px 0px 40px 0px;
+    border-top: 5px solid #000000;
+}
+
+.sub-footer h4 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.sub-footer ul li {
+    margin-bottom: 8px;
+}
+
+.sub-footer ul li a {
+    color: #727272;
+}
+
+.sub-footer ul li a:hover {
+    color: #ffffff;
+}
+
+.copyright {
+    font-size: 13px;
+}
+
+footer {
+    padding: 20px 0px;
+}
+
+.footer-social-media ul li {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    background: #999999;
+    transition: .3s;
+}
+
+.footer-social-media ul li:hover {
+    background: #27a22d;
+}
+
+.footer-social-media ul li a {
+    color: #fff;
+}
+
+.footer-social-media ul li.list-inline-item {
+    margin-right: 2px;
+}
+
+.footer-social-media ul li.list-inline-item:last-child {
+    margin-right: 0px;
+}
+
+/*===================== Hero Area ======================*/
+.hero-area {
+    padding: 70px 0px;
+    background: url(../img/bg.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-area h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.form-area {
+    background: #E4E3DF;
+    padding: 30px;
+    border-radius: 4px;
+    margin-right: 48px;
+}
+
+.form-area form .form-control {
+    height: calc(1.8em + .85rem + 4px);
+    padding: .6rem .75rem;
+    font-size: .95rem;
+    color: #000000;
+    border-radius: .15rem;
+}
+
+.form-area form .form-control:focus {
+    border-color: #27A22D;
+    box-shadow: 0 0 0 0.2rem rgba(39, 162, 45, .25);
+}
+
+.form-area form .btn {
+    padding: 0.55rem .75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: .15rem;
+}
+
+/*===================== Client Area ======================*/
+
+/*
+.client {
+    background: #fbfbfb;
+}
+*/
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    font-size: 55px;
+}
+
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus {
+    outline: 0;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 10%;
+    right: -25px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 10%;
+    left: -25px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #fff;
+    color: #000000;
+    text-decoration: none;
+}
+
+/*=======================================================*/
+.single-3service {
+    padding: 10px;
+}
+
+.single-3service img {
+    margin-bottom: 20px;
+}
+
+.single-3service p {
+    margin-bottom: 36px;
+}
+
+.main-content {
+    background: #f9f9f9;
+}
+
+.main-content p {
+    margin-bottom: 28px;
+}
+
+.main-content h3 {
+    color: #77bc1f;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.3;
+}
+
+.single-security-service {
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+.single-security-service h5 {
+    font-weight: 400;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+
+.security-icon {
+    height: 85px;
+    width: 85px;
+    margin: 0 auto;
+    background: #ccc;
+    line-height: 85px;
+    font-size: 45px;
+    color: #fff;
+    border-radius: 50%;
+    transition: .3s;
+
+}
+
+.single-security-service:hover .security-icon {
+    background: #77bc1f;
+}
+
+.rec-demo {
+    padding: 100px 0px;
+    background: url(../img/avada-it-call-to-action-bg-2-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rec-demo-text {
+    border-left: 10px solid #74C5DA;
+    padding-left: 25px;
+    color: #fff;
+}
+
+.rec-demo-text h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.rec-demo-text p {
+    color: #fff;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .section-padding {
+        padding: 50px 0px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 20%;
+        left: -7px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        top: 20%;
+        right: -7px;
+    }
+
+    .hero-area {
+        padding: 55px 0px;
+    }
+
+    .form-area {
+        padding: 22px 16px;
+        margin-right: 0;
+    }
+
+    .form-area h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .form-area form .form-control {
+        height: calc(1.6em + .85rem + 4px);
+    }
+
+    .form-area form .btn {
+        font-size: 1rem;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .top-social-media,
+    .top-contact-info {
+        text-align: center;
+    }
+
+    .top-contact-info {
+        margin-bottom: 8px;
+    }
+
+    /*--------------------------------------------*/
+    .single-3service img {
+        margin-bottom: 16px;
+    }
+
+    .single-3service p {
+        margin-bottom: 25px;
+    }
+
+    .main-content h3 {
+        text-align: center;
+    }
+
+    .rec-demo-text {
+        border-left: 8px solid #74C5DA;
+        padding-left: 14px;
+        margin-bottom: 36px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .form-area h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+}

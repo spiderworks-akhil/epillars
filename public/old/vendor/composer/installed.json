@@ -1,0 +1,444 @@
+[
+    {
+        "name": "scotteh/php-dom-wrapper",
+        "version": "1.2.1",
+        "version_normalized": "1.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/scotteh/php-dom-wrapper.git",
+            "reference": "54b064eb88e25887945a179b07097452b2f7af2e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/scotteh/php-dom-wrapper/zipball/54b064eb88e25887945a179b07097452b2f7af2e",
+            "reference": "54b064eb88e25887945a179b07097452b2f7af2e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-libxml": "*",
+            "ext-mbstring": "*",
+            "lib-libxml": ">=2.7.7",
+            "php": ">=7.1.0",
+            "symfony/css-selector": "^4.0 || ^5.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "^2.9",
+            "phpunit/phpunit": "^7.0"
+        },
+        "time": "2020-02-22T00:53:56+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DOMWrap\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Andrew Scott",
+                "email": "andrew@andrewscott.net.au"
+            }
+        ],
+        "description": "Simple DOM wrapper to select nodes using either CSS or XPath expressions and manipulate results quickly and easily.",
+        "homepage": "https://github.com/scotteh/php-dom-wrapper",
+        "keywords": [
+            "css",
+            "dom",
+            "html",
+            "parser",
+            "wrapper"
+        ]
+    },
+    {
+        "name": "soloproyectos-php/array",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/soloproyectos-php/array.git",
+            "reference": "de38c800f3388005cbd37e70ab055f22609a5eae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/soloproyectos-php/array/zipball/de38c800f3388005cbd37e70ab055f22609a5eae",
+            "reference": "de38c800f3388005cbd37e70ab055f22609a5eae",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "time": "2018-01-29T06:01:58+00:00",
+        "type": "php-library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "soloproyectos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gonzalo Chumillas",
+                "email": "gchumillas@email.com"
+            }
+        ],
+        "description": "A library for managing arrays. This library is part of the SoloProyectos PHP API."
+    },
+    {
+        "name": "soloproyectos-php/css",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/soloproyectos-php/css.git",
+            "reference": "4ec9eb682a54fe6e992a8011aa89d721fbc380da"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/soloproyectos-php/css/zipball/4ec9eb682a54fe6e992a8011aa89d721fbc380da",
+            "reference": "4ec9eb682a54fe6e992a8011aa89d721fbc380da",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "time": "2018-01-29T06:02:40+00:00",
+        "type": "php-library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "soloproyectos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gonzalo Chumillas",
+                "email": "gchumillas@email.com"
+            }
+        ],
+        "description": "A library for managing CSS expressions. This library is part of the SoloProyectos PHP API."
+    },
+    {
+        "name": "soloproyectos-php/css-parser",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/soloproyectos-php/css-parser.git",
+            "reference": "33611d98bd55fc5128c27e988925b330769a5ed9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/soloproyectos-php/css-parser/zipball/33611d98bd55fc5128c27e988925b330769a5ed9",
+            "reference": "33611d98bd55fc5128c27e988925b330769a5ed9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0",
+            "soloproyectos-php/array": "~1.0",
+            "soloproyectos-php/css": "~1.0",
+            "soloproyectos-php/dom": "~2.0",
+            "soloproyectos-php/text-parser": "~1.0"
+        },
+        "time": "2018-01-29T06:03:00+00:00",
+        "type": "php-library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "soloproyectos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gonzalo Chumillas",
+                "email": "gchumillas@email.com"
+            }
+        ],
+        "description": "A library for managing CSS expressions. This library is part of the SoloProyectos PHP API."
+    },
+    {
+        "name": "soloproyectos-php/dom",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/soloproyectos-php/dom.git",
+            "reference": "cc93ff3f590c6180e2b9b23a00c9e9b54c75e663"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/soloproyectos-php/dom/zipball/cc93ff3f590c6180e2b9b23a00c9e9b54c75e663",
+            "reference": "cc93ff3f590c6180e2b9b23a00c9e9b54c75e663",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "time": "2018-01-29T06:03:57+00:00",
+        "type": "php-library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "soloproyectos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gonzalo Chumillas",
+                "email": "gchumillas@email.com"
+            }
+        ],
+        "description": "A library for managing DOM documents. This library is part of the SoloProyectos PHP API."
+    },
+    {
+        "name": "soloproyectos-php/dom-node",
+        "version": "1.4.1",
+        "version_normalized": "1.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/soloproyectos-php/dom-node.git",
+            "reference": "5f8207b621d3a5a3739b8d7b5c77ad20080e190c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/soloproyectos-php/dom-node/zipball/5f8207b621d3a5a3739b8d7b5c77ad20080e190c",
+            "reference": "5f8207b621d3a5a3739b8d7b5c77ad20080e190c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0",
+            "soloproyectos-php/array": "~1.0",
+            "soloproyectos-php/css-parser": "~1.0",
+            "soloproyectos-php/dom": "~2.0",
+            "soloproyectos-php/text": "~1.0"
+        },
+        "time": "2018-01-29T06:04:18+00:00",
+        "type": "php-library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "soloproyectos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gonzalo Chumillas",
+                "email": "gchumillas@email.com"
+            }
+        ],
+        "description": "A library for managing DOM documents. This library is part of the SoloProyectos PHP API."
+    },
+    {
+        "name": "soloproyectos-php/text",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/soloproyectos-php/text.git",
+            "reference": "1bd5f6a38ae67cc65d6bd9d9e0bd5bed858bf638"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/soloproyectos-php/text/zipball/1bd5f6a38ae67cc65d6bd9d9e0bd5bed858bf638",
+            "reference": "1bd5f6a38ae67cc65d6bd9d9e0bd5bed858bf638",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "time": "2018-01-29T06:07:17+00:00",
+        "type": "php-library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "soloproyectos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gonzalo Chumillas",
+                "email": "gchumillas@email.com"
+            }
+        ],
+        "description": "A library for managing texts. This library is part of the SoloProyectos PHP API."
+    },
+    {
+        "name": "soloproyectos-php/text-parser",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/soloproyectos-php/text-parser.git",
+            "reference": "3ef2e8a26f7c53b170383d74ccf4106b0f3dd8b1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/soloproyectos-php/text-parser/zipball/3ef2e8a26f7c53b170383d74ccf4106b0f3dd8b1",
+            "reference": "3ef2e8a26f7c53b170383d74ccf4106b0f3dd8b1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0",
+            "soloproyectos-php/text": "~1.0",
+            "soloproyectos-php/text-tokenizer": "~1.0"
+        },
+        "time": "2018-01-29T06:07:33+00:00",
+        "type": "php-library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "soloproyectos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gonzalo Chumillas",
+                "email": "gchumillas@email.com"
+            }
+        ],
+        "description": "A library for parsing strings. This library is part of the SoloProyectos PHP API."
+    },
+    {
+        "name": "soloproyectos-php/text-tokenizer",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/soloproyectos-php/text-tokenizer.git",
+            "reference": "792b463ad8790fa19a7120d1354ee852fc70c017"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/soloproyectos-php/text-tokenizer/zipball/792b463ad8790fa19a7120d1354ee852fc70c017",
+            "reference": "792b463ad8790fa19a7120d1354ee852fc70c017",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "time": "2018-01-29T06:07:46+00:00",
+        "type": "php-library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "soloproyectos\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gonzalo Chumillas",
+                "email": "gchumillas@email.com"
+            }
+        ],
+        "description": "A library to split a string into smaller tokens. This library is part of the SoloProyectos PHP API."
+    },
+    {
+        "name": "symfony/css-selector",
+        "version": "v5.1.7",
+        "version_normalized": "5.1.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/css-selector.git",
+            "reference": "e544e24472d4c97b2d11ade7caacd446727c6bf9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/e544e24472d4c97b2d11ade7caacd446727c6bf9",
+            "reference": "e544e24472d4c97b2d11ade7caacd446727c6bf9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2.5"
+        },
+        "time": "2020-05-20T17:43:50+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\CssSelector\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Jean-François Simon",
+                "email": "jeanfrancois.simon@sensiolabs.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony CssSelector Component",
+        "homepage": "https://symfony.com",
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "soloproyectos-php/dom-node": "^1.4",
+        "scotteh/php-dom-wrapper": "^1.2"
+    }
+}

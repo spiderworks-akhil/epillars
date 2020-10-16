@@ -1,0 +1,187 @@
+/* ==========================================================================
+   Basic CSS
+   ========================================================================== */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #727272;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #272727;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.section-padding {
+    padding: 80px 0px;
+}
+
+/*===================== Header ======================*/
+.top-contact-info ul li a {
+    font-size: 13px;
+    color: #727272;
+}
+
+.top-contact-info ul li a:hover {
+    color: #27a22d;
+}
+
+.top-social-media ul li {
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    background: #27a22d;
+    transition: .3s;
+}
+
+.top-social-media ul li:hover {
+    background: #999999;
+}
+
+.top-social-media ul li a {
+    color: #fff;
+}
+
+.top-social-media ul li.list-inline-item {
+    margin-right: 2px;
+}
+
+.top-social-media ul li.list-inline-item:last-child {
+    margin-right: 0px;
+}
+
+/*===================== Footer ======================*/
+.sub-footer {
+    background: url(../img/footer-bg.jpg);
+    background-repeat: repeat;
+    background-position: left top;
+    padding: 70px 0px 40px 0px;
+    border-top: 5px solid #000000;
+}
+
+.sub-footer h4 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.sub-footer ul li {
+    margin-bottom: 8px;
+}
+
+.sub-footer ul li a {
+    color: #727272;
+}
+
+.sub-footer ul li a:hover {
+    color: #ffffff;
+}
+
+.copyright {
+    font-size: 13px;
+}
+
+footer {
+    padding: 20px 0px;
+}
+
+.footer-social-media ul li {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    background: #999999;
+    transition: .3s;
+}
+
+.footer-social-media ul li:hover {
+    background: #27a22d;
+}
+
+.footer-social-media ul li a {
+    color: #fff;
+}
+
+.footer-social-media ul li.list-inline-item {
+    margin-right: 2px;
+}
+
+.footer-social-media ul li.list-inline-item:last-child {
+    margin-right: 0px;
+}
+
+/*===================== Hero Area ======================*/
+.hero-area {
+    padding: 150px 0px;
+    background: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .section-padding {
+        padding: 50px 0px;
+    }
+
+    .hero-area {
+        padding: 90px 0px;
+    }
+
+    .hero-area h1 {
+        font-size: 2rem;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .top-social-media,
+    .top-contact-info {
+        text-align: center;
+    }
+
+    .top-contact-info {
+        margin-bottom: 8px;
+    }
+
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
