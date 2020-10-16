@@ -7,7 +7,7 @@
 				{{$item->title}}
 			</a>
 		@else
-			<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+			<a href="{{$item->slug}}" data-toggle="dropdown" class="dropdown-toggle">
 				@php $pos = strpos('.png', $item->title); @endphp
 				@if (strpos($item->title, '.png'))
 					<img src="{{$item->title}}" align="middle">
