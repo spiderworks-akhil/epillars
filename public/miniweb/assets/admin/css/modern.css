@@ -1642,13 +1642,15 @@ body.sidebar-visible .page-sidebar .sidebar-header .sidebar-header-controls {
   clear: both;
 }
 .page-sidebar .sidebar-menu .menu-items > li > a {
-  font-family: Arial, sans-serif;
   display: inline-block;
   padding-left: 32px;
   min-height: 40px;
   line-height: 40px;
   font-size: 14px;
   clear: both;
+  color: white;
+  font-weight: 400;
+  font-family: 'Montserrat';
 }
 .page-sidebar .sidebar-menu .menu-items > li > a.open {
   background: #313131;

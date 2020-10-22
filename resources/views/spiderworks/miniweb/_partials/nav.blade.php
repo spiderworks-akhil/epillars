@@ -1,4 +1,4 @@
-<nav class="page-sidebar" data-pages="sidebar">
+<nav class="page-sidebar" data-pages="sidebar" style="    background: linear-gradient(0deg, #28a22e, #385968);">
     <!-- BEGIN SIDEBAR MENU TOP TRAY CONTENT-->
     <div class="sidebar-overlay-slide from-top" id="appMenu">
         <div class="row">
@@ -24,16 +24,16 @@
     </div>
     <!-- END SIDEBAR MENU TOP TRAY CONTENT-->
     <!-- BEGIN SIDEBAR MENU HEADER-->
-    <div class="sidebar-header">
+    <div class="sidebar-header" style="background: white">
 
-        Dash v.01
-        <div class="sidebar-header-controls">
-            <button type="button" class="btn btn-xs sidebar-slide-toggle btn-link m-l-20" data-pages-toggle="#appMenu">
-                <i class="fa fa-angle-down fs-16"></i>
-            </button>
-            <button type="button" class="btn btn-link d-lg-inline-block d-xlg-inline-block d-md-inline-block d-sm-none d-none" data-toggle-pin="sidebar"><i class="fa fs-12"></i>
-            </button>
-        </div>
+        <img src="{{asset('logo-backend.png')}}" alt="" width="120px;">
+        {{--<div class="sidebar-header-controls">--}}
+            {{--<button type="button" class="btn btn-xs sidebar-slide-toggle btn-link m-l-20" data-pages-toggle="#appMenu">--}}
+                {{--<i class="fa fa-angle-down fs-16"></i>--}}
+            {{--</button>--}}
+            {{--<button type="button" class="btn btn-link d-lg-inline-block d-xlg-inline-block d-md-inline-block d-sm-none d-none" data-toggle-pin="sidebar"><i class="fa fs-12"></i>--}}
+            {{--</button>--}}
+        {{--</div>--}}
     </div>
     <!-- END SIDEBAR MENU HEADER-->
     <!-- START SIDEBAR MENU -->
@@ -42,40 +42,31 @@
         <ul class="menu-items">
             <li>
                 <a href="{{route('spiderworks.miniweb.media.index')}}"  class="detailed">
-                    <span class="title">Manage Media</span>
+                    <span class="title"><i class="fa fa-picture-o" aria-hidden="true"></i> Media Library</span>
                 </a>
-                <span class="icon-thumbnail"><i class="pg-calender"></i></span>
             </li>
-            <li>
-                <a href="{{route('spiderworks.miniweb.types')}}"  class="detailed">
-                    <span class="title">Manage Types</span>
-                </a>
-                <span class="icon-thumbnail"><i class="pg-calender"></i></span>
-            </li>
-            <li>
-                <a href="{{route('spiderworks.miniweb.category.index')}}"  class="detailed">
-                    <span class="title">Manage Categories</span>
-                </a>
-                <span class="icon-thumbnail"><i class="pg-calender"></i></span>
-            </li>
+            {{--<li>--}}
+                {{--<a href="{{route('spiderworks.miniweb.category.index')}}"  class="detailed">--}}
+                    {{--<span class="title">Manage Categories</span>--}}
+                {{--</a>--}}
+                {{--<span class="icon-thumbnail"><i class="pg-calender"></i></span>--}}
+            {{--</li>--}}
             <li>
                 <a href="{{route('spiderworks.miniweb.pages.index')}}"  class="detailed">
-                    <span class="title">Manage Pages</span>
+                    <span class="title"><i class="fa fa-file-text-o" aria-hidden="true"></i> Manage Pages</span>
                 </a>
-                <span class="icon-thumbnail"><i class="pg-calender"></i></span>
             </li>
             <li>
                 <a href="{{route('spiderworks.miniweb.menus.index')}}"  class="detailed">
-                    <span class="title">Manage Menu</span>
+                    <span class="title"><i class="fa fa-bars" aria-hidden="true"></i> Manage Menu</span>
                 </a>
-                <span class="icon-thumbnail"><i class="pg-calender"></i></span>
             </li>
-            <li>
-                <a href="{{route('spiderworks.miniweb.frontend-pages.index')}}"  class="detailed">
-                    <span class="title">Manage Internal Pages</span>
-                </a>
-                <span class="icon-thumbnail"><i class="pg-calender"></i></span>
-            </li>
+            {{--<li>--}}
+                {{--<a href="{{route('spiderworks.miniweb.frontend-pages.index')}}"  class="detailed">--}}
+                    {{--<span class="title">Manage Internal Pages</span>--}}
+                {{--</a>--}}
+                {{--<span class="icon-thumbnail"><i class="pg-calender"></i></span>--}}
+            {{--</li>--}}
         </ul>
 
         <div class="clearfix"></div>

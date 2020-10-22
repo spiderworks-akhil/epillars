@@ -23,7 +23,61 @@
     <link  href="{{asset('miniweb/assets/pages/css/themes/modern.css')}}" rel="stylesheet" type="text/css" />
     <link  href="{{asset('miniweb/assets/css/style.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('miniweb/css/styles.css')}}" rel="stylesheet" type="text/css">
+    <style>
+        label{
+            margin-bottom: 2px;
+        }
+        .btn-submit{
+            margin-top: 5px;
+        }
+        .page-sidebar .sidebar-menu .menu-items > li > a > .title {
+            width: auto !important;
+        }
+        .dataTables_wrapper .row:first-child {
+            width: auto !important;
+            background: linear-gradient(45deg, #dcdcdc, #c5c5c5);
+        }
 
+        .table thead tr th {
+            text-transform: uppercase;
+            font-weight: 500;
+            font-family: 'Montserrat';
+            font-size: 10.5px;
+            letter-spacing: 0.06em;
+            padding-top: 14px;
+            /* padding-bottom: 14px; */
+            vertical-align: middle;
+            border-bottom: 1px solid rgba(225, 225, 226, 0.7);
+            color: rgba(44, 45, 46, 0.35);
+            border-top: none;
+            padding: 5px !important;
+        }
+
+        .table thead tr th:first-child {
+            width: 10px;
+        }
+
+        .table tbody tr td {
+            background: #fff;
+            border-bottom: 1px solid rgba(225, 225, 226, 0.7);
+            border-top: 0px;
+            padding: 3px 1px;
+            font-size: 13.5px;
+        }
+
+        .profile-dropdown > a:last-child {
+             margin-top: 0px;
+        }
+
+        .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_paginate {
+            margin-top: 0px !important;
+        }
+
+        #column-search tr:nth-child(2){
+            display: none;
+        }
+
+    </style>
 </head>
 <body class="fixed-header menu-pin">
 <!-- BEGIN SIDEBPANEL-->
@@ -39,10 +93,6 @@
         </a>
         <!-- END MOBILE SIDEBAR TOGGLE -->
         <div class="">
-            <div class="brand inline">
-                PITTAPPILLIL
-            </div>
-
         </div>
         <div class="d-flex align-items-center">
             <!-- START User Info-->
@@ -62,10 +112,7 @@
               </span>
                 </button>
                 <div class="dropdown-menu dropdown-menu-right profile-dropdown" role="menu">
-                    <a href="#" class="dropdown-item"><i class="pg-settings_small"></i> Settings</a>
-                    <a href="#" class="dropdown-item"><i class="pg-outdent"></i> Feedback</a>
-                    <a href="#" class="dropdown-item"><i class="pg-signals"></i> Help</a>
-                    <a href="#" class="clearfix bg-master-lighter dropdown-item">
+                    <a href="{{url('logout')}}" class="clearfix bg-master-lighter dropdown-item">
                         <span class="pull-left">Logout</span>
                         <span class="pull-right"><i class="pg-power"></i></span>
                     </a>
@@ -99,13 +146,9 @@
         <div class=" container-fluid  container-fixed-lg footer">
             <div class="copyright sm-text-center">
                 <p class="small no-margin pull-left sm-pull-reset">
-                    <span class="hint-text">Copyright &copy; 2017 </span>
-                    <span class="font-montserrat">REVOX</span>.
+                    <span class="hint-text">Copyright &copy; {{date('Y')}} </span>
+                    <span class="font-montserrat"><a href="https://www.spiderworks.in/">SpiderWorks</a></span>.
                     <span class="hint-text">All rights reserved. </span>
-                    <span class="sm-block"><a href="#" class="m-l-10 m-r-10">Terms of use</a> <span class="muted">|</span> <a href="#" class="m-l-10">Privacy Policy</a></span>
-                </p>
-                <p class="small no-margin pull-right sm-pull-reset">
-                    Hand-crafted <span class="hint-text">&amp; made with Love</span>
                 </p>
                 <div class="clearfix"></div>
             </div>
@@ -119,6 +162,22 @@
 
 <!-- END QUICKVIEW-->
 <!-- START OVERLAY -->
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" style="z-index: 2">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div id="myModalBody" class="modal-body"></div>
+
+        </div>
+    </div>
+</div>
 
 <!-- END OVERLAY -->
 <!-- BEGIN VENDOR JS -->

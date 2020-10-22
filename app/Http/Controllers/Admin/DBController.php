@@ -134,7 +134,8 @@ public function delete_all_between($beginning, $end, $string) {
 
             $o = Page::find($obj->id);
             $o->content = $doc->contents();
-            $o->slug = str_replace("-html","",$obj->slug); ;
+            $o->slug = str_replace("-html","",$obj->slug);
+            $o->name = str_replace('-',' ',$o->slug);
             $o->save();
 
         }

@@ -32,4 +32,11 @@
     <script src="{{ asset('miniweb/assets/plugins/fileupload/js/jquery.fileupload-validate.js')}}"></script>
     <!-- The File Upload user interface plugin -->
     <script src="{{ asset('miniweb/assets/plugins/fileupload/js/jquery.fileupload-ui.js')}}"></script>
+
+    <script>
+        $(document).on('click', '.image-remove', function(){
+            $(this).parent('.default-image-holder').find('img').attr('src', base_url+'/public/assets/img/add_image.png');
+            $(this).parent('.default-image-holder').find("input").val('');
+        })
+    </script>
 @endsection

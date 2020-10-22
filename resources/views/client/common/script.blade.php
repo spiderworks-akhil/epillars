@@ -58,6 +58,7 @@
 <!-- lightbox -->
 <script type="text/javascript" src="{{asset('old')}}/js/lightbox/jquery.fancybox.js"></script>
 <script type="text/javascript" src="{{asset('old')}}/js/lightbox/custom.js"></script>
+<script type="text/javascript" src="{{asset('old')}}/js/common.js"></script>
 
 
 <script src="{{asset('old')}}/js/masterslider/masterslider.min.js"></script>

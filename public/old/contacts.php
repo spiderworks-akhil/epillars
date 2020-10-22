@@ -1,5 +1,5 @@
 <?php
-//Log input to a text file
+    //Log input to a text file
 	$ip = $_SERVER['REMOTE_ADDR'];
 	$today = date("Y-m-d H:i");
 	$qfile = '/var/www/contacts.csv';
@@ -33,7 +33,7 @@
 	if ($response->success) {
 			$site = "ePillars.com";
 			$subject= "Message from ".$_POST['name']." through ePillars.com";
-			$toemail = 'info@epillars.com';
+			$toemail = 'akhil@spiderworks.in';
 //			$toemail = 'shyju@epillars.com';
 			$name = $_POST['name'];
 			$msg = $_POST['message'];
